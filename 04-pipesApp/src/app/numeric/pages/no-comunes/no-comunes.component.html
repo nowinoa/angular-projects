@@ -1,0 +1,104 @@
+<div class="text-layout">
+    <h1>Pipes no tan comunes</h1>
+    <p>
+        Pipes incluidos en Angular - Usualmente en el Common Module.
+    </p>
+</div>
+
+<div class="grid">
+    <div class="col md-6">
+        <p-fieldset legend="i18nSelect Pipe" [toggleable]="true">
+          <h4>value_expression | i18nSelect : mapping</h4>
+          <p> Saludos {{nombre[0]}}, es un placer
+           {{ genero[1] | i18nSelect:invitacionMapa }}
+           a nuestro evento.</p>
+           
+            <button pButton 
+                    type="button" 
+                    (click)="cambiarCliente()"
+                    label="Cambiar Persona" 
+                    class="p-button-raised text-layout">
+
+            </button>
+        </p-fieldset>
+    </div>
+    
+    <div class="col md-6">
+        <p-fieldset legend="i18nPlural Pipe" [toggleable]="true">
+            <h4>value_expression | i18nPlural : pluralMap [ : locale ] </h4>
+            <p>Actualmente tenemos {{ clientes.length| i18nPlural:clientesMapa}} cliente esperando</p>
+            <button pButton 
+            type="button" 
+            (click)="borrarCliente()"
+            label="Borrar Cliente" 
+            class="p-button-raised text-layout">
+
+            </button>
+        </p-fieldset>
+    </div>
+
+  
+</div>
+
+<div class="grid"> 
+    <div class="col md-6">
+        <p-fieldset legend="Slice Pipe" [toggleable]="true">
+            <h4>Slice Pipe: sirve para cortar la información que se desea mostrar. El primer valor (start) sirve para indicar en que posición comienza y el segundo valor (end) para terminar.
+            </h4> 
+            <h5>value_expression | slice : start [ : end ]</h5>  
+            <pre>{{ clientes }}</pre>
+            <h5>Ej. slice:0:2</h5>
+            <pre>{{clientes | slice:0:2}}</pre>
+            <h5>Ej. slice:2:6</h5>
+            <pre>{{clientes | slice:2:6}}</pre>
+            <p>Si pulsas el botón de borrar cliente, debe eliminarse un nombre.</p>
+        </p-fieldset>
+    </div>
+
+
+    <div class="col md-6">
+        <p-fieldset legend="JSON Pipe" [toggleable]="true">
+            <h4>Json Pipe: sirve para mostar código.</h4>
+            <h5> value_expression | json </h5>
+            <p>{{heroes | json}}</p>
+        </p-fieldset>
+    </div>
+
+    
+    <div class="col md-6">
+        <p-fieldset legend="KeyValue Pipe" [toggleable]="true">
+            <h4>KeyValue Pipe: sirve para mostrar valores de un arreglo.</h4>
+            <h5>input_expression | keyvalue [ : compareFn ]</h5>
+            <ul>
+                <li *ngFor="let item of persona | keyvalue">
+                    <b>{{item.key | titlecase}}</b> : {{item.value}}
+                </li>
+
+            </ul>
+        </p-fieldset>
+    </div>
+
+    <div class="col md-6">
+        <p-fieldset legend="Async Pipe" [toggleable]="true">
+            <h4>Async Pipe: nos permite visualizar en pantalla el contenido de una observable o una promesa.</h4>
+            <!-- <h5>obj_expression | async</h5>
+           <pre>{{miObservable | async}}</pre>
+            -->
+           <h5>Utilizar async pipe para la ausencia de un valor mediante ngIf</h5>
+           <p>Por ejemplo: para mostrar un mensaje mientras obtenemos la información necesaria.</p>
+           <p>Para la negación debemos utilizar <b>!(#)</b></p>
+           <button pButton 
+           type="button" 
+           class="p-button-text">
+           <pre *ngIf="!(valorPromesa | async)"> Resolviendo promesa </pre>
+          
+            <pre>{{valorPromesa | async}}</pre>
+           </button>
+          
+        </p-fieldset>
+    </div>
+   
+</div>
+
+
+  
