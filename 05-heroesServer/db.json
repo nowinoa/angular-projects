@@ -1,0 +1,208 @@
+{
+  "usuarios": [
+    {
+      "superhero": "Fernando",
+      "publisher": "DC Comics",
+      "id": 1
+    }
+  ],
+  "heroes": [
+    {
+      "id": "dc-batman",
+      "superhero": "Batman",
+      "publisher": "DC Comics",
+      "alter_ego": "Bruce Wayne",
+      "first_appearance": "Detective Comics #27",
+      "characters": "Bruce Wayne"
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
+    },
+    {
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+    },
+    {
+      "id": "dc-green",
+      "superhero": "Green Lantern",
+      "publisher": "DC Comics",
+      "alter_ego": "Alan Scott",
+      "first_appearance": "All-American Comics #16",
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+    },
+    {
+      "id": "dc-arrow",
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
+      "alter_ego": "Oliver Queen",
+      "first_appearance": "More Fun Comics #73",
+      "characters": "Oliver Queen"
+    },
+    {
+      "id": "dc-martian",
+      "superhero": "Martian Manhunter",
+      "publisher": "DC Comics",
+      "alter_ego": "J\"onn J\"onzz",
+      "first_appearance": "Detective Comics #225",
+      "characters": "Martian Manhunter"
+    },
+    {
+      "id": "dc-robin",
+      "superhero": "Robin/Nightwing",
+      "publisher": "DC Comics",
+      "alter_ego": "Dick Grayson",
+      "first_appearance": "Detective Comics #38",
+      "characters": "Dick Grayson"
+    },
+    {
+      "id": "dc-blue",
+      "superhero": "Blue Beetle",
+      "publisher": "DC Comics",
+      "alter_ego": "Dan Garret",
+      "first_appearance": "Mystery Men Comics #1",
+      "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+    },
+    {
+      "id": "dc-black",
+      "superhero": "Black Canary",
+      "publisher": "DC Comics",
+      "alter_ego": "Dinah Drake",
+      "first_appearance": "Flash Comics #86",
+      "characters": "Dinah Drake, Dinah Lance"
+    },
+    {
+      "id": "marvel-spider",
+      "superhero": "Spider Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Peter Parker",
+      "first_appearance": "Amazing Fantasy #15",
+      "characters": "Peter Parker"
+    },
+    {
+      "id": "marvel-captain",
+      "superhero": "Captain America",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Steve Rogers",
+      "first_appearance": "Captain America Comics #1",
+      "characters": "Steve Rogers"
+    },
+    {
+      "id": "marvel-iron",
+      "superhero": "Iron Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Tony Stark",
+      "first_appearance": "Tales of Suspense #39",
+      "characters": "Tony Stark"
+    },
+    {
+      "id": "marvel-thor",
+      "superhero": "Thor",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Thor Odinson",
+      "first_appearance": "Journey into Myster #83",
+      "characters": "Thor Odinson"
+    },
+    {
+      "id": "marvel-hulk",
+      "superhero": "Hulk",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Bruce Banner",
+      "first_appearance": "The Incredible Hulk #1",
+      "characters": "Bruce Banner"
+    },
+    {
+      "id": "marvel-wolverine",
+      "superhero": "Wolverine",
+      "publisher": "Marvel Comics",
+      "alter_ego": "James Howlett",
+      "first_appearance": "The Incredible Hulk #180",
+      "characters": "James Howlett"
+    },
+    {
+      "id": "marvel-daredevil",
+      "superhero": "Daredevil",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Matthew Michael Murdock",
+      "first_appearance": "Daredevil #1",
+      "characters": "Matthew Michael Murdock"
+    },
+    {
+      "id": "marvel-hawkeye",
+      "superhero": "Hawkeye",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Clinton Francis Barton",
+      "first_appearance": "Tales of Suspense #57",
+      "characters": "Clinton Francis Barton"
+    },
+    {
+      "id": "marvel-cyclops",
+      "superhero": "Cyclops",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Scott Summers",
+      "first_appearance": "X-Men #1",
+      "characters": "Scott Summers"
+    },
+    {
+      "id": "marvel-silver",
+      "superhero": "Silver Surfer",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Norrin Radd",
+      "first_appearance": "The Fantastic Four #48",
+      "characters": "Norrin Radd"
+    },
+    {
+      "superhero": "Robin",
+      "alter_ego": "el de al lado de batman",
+      "characters": "el que sigue a batman",
+      "first_appearance": "despues de mucho batman",
+      "publisher": "DC Comics",
+      "alt_img": "https://upload.wikimedia.org/wikipedia/en/e/ee/Robin_%28Damian_Wayne%29.png",
+      "id": "ovMr4dR"
+    },
+    {
+      "superhero": "Manuel",
+      "alter_ego": "Nirrow",
+      "characters": "ladron",
+      "first_appearance": "robando un mocha",
+      "publisher": "DC Comics",
+      "alt_img": "https://img.freepik.com/premium-vector/superhero-character-with-pop-art-style_23-2147914709.jpg?w=2000",
+      "id": "543fiiM"
+    },
+    {
+      "superhero": "jacinto",
+      "alter_ego": "sakalasnikofff",
+      "characters": "gehsdjan",
+      "first_appearance": "WW2",
+      "publisher": "DC Comics",
+      "alt_img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fe%2Fee%2FRobin_%2528Damian_Wayne%2529.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDamian_Wayne&tbnid=IWskfRWc3hDPmM&vet=12ahUKEwikq9Orhb_5AhUVhXMKHchoDVQQMygEegUIARDlAQ..i&docid=TkgrNLcEeaiq0M&w=243&h=411&q=robin%20dc&ved=2ahUKEwikq9Orhb_5AhUVhXMKHchoDVQQMygEegUIARDlAQ",
+      "id": "x1Rvibw"
+    },
+    {
+      "superhero": "jacinto",
+      "alter_ego": "sakalasnikofff",
+      "characters": "cx m",
+      "first_appearance": "WW2",
+      "publisher": "DC Comics",
+      "alt_img": "",
+      "id": "Z42ztSA"
+    },
+    {
+      "superhero": "Jhon",
+      "alter_ego": "Patriota",
+      "characters": "Patriota - los 7",
+      "first_appearance": "The boys",
+      "publisher": "Marvel Comics",
+      "alt_img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hmlndr-dwwk-1646323091.jpg?resize=480:*",
+      "id": "JxSAAd_"
+    }
+  ]
+}
